@@ -46,6 +46,14 @@ imshow('a title', img_rgb, QImage.Format_RGB888)
 ## Install
 This module can be installed, added to pythonpath or just copied.
 
+Recommended option:
+```
+mkdir -p $HOME/.python_modules
+git clone https://github.com/varhub/qtimshow.git $HOME/.python_modules/qtimshow
+export PYTHONPATH=$PYTHONPATH:$HOME/.python_modules
+# you can add last line to .profile or .bashrc to avoid type it always
+```
+
 
 ## License
 Program is under GPLv3 or later, copyrigth (C) 2015 Victor Arribas.
