@@ -19,5 +19,5 @@
 #       Victor Arribas <v.arribas.urjc@gmail.com>
 #
 
-from .qtimshow import imshow
+from .qtimshow import (enable, disable, imshow, QImage)
 
